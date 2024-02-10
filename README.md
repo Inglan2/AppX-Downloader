@@ -6,4 +6,7 @@ Run on:
 
 [Gitpod](https://gitpod.io/?autostart=true#https://github.com/Inglan2/AppX-Downloader)
 
-Run Locally: `python donwload.py`
+To Run:
+```sh
+python donwload.py
+```
