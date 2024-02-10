@@ -14,3 +14,7 @@ or
 ```sh
 python3 download.py
 ```
+
+Go to [apps.microsoft.com](https://apps.microsoft.com), find an app and copy paste the url into the terminal.
+> [!TIP]
+> If CTRL+V doesnt work use CTRL+SHIFT+V
