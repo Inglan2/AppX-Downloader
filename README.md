@@ -8,5 +8,9 @@ Run on:
 
 To Run:
 ```sh
-python donwload.py
+python donwload.py 
+```
+or
+```sh
+python3 download.py
 ```
