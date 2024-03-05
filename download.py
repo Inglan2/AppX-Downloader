@@ -7,13 +7,13 @@ if os.system("gp")==0:
     gp = True
 
 def cls():
-    os.system("gp stop")
+    os.system("clear")
 
 def main():
 
     storeurl = input("URL: ").split("?")[0]
     if storeurl == "stop" and gp:
-        os.system("gp")
+        os.system("gp stop")
 
     url = "https://store.rg-adguard.net/api/GetFiles"
 
