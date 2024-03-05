@@ -2,13 +2,18 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
+gp = False
+if os.system("gp")==0:
+    gp = True
+
 def cls():
-    os.system("clear")
+    os.system("gp stop")
 
 def main():
 
     storeurl = input("URL: ").split("?")[0]
-
+    if storeurl == "stop" and gp:
+        os.system("gp")
 
     url = "https://store.rg-adguard.net/api/GetFiles"
 
